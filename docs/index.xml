@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>tahmid-kazi.github.io/</title>
+    <title>Tahmid Kazi</title>
     <link>https://tahmid-kazi.github.io/</link>
-    <description>Recent content on tahmid-kazi.github.io/</description>
+    <description>Recent content on Tahmid Kazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 29 Feb 2024 10:27:42 -0500</lastBuildDate>
@@ -13,14 +13,14 @@
       <link>https://tahmid-kazi.github.io/posts/article2/</link>
       <pubDate>Thu, 29 Feb 2024 10:27:42 -0500</pubDate>
       <guid>https://tahmid-kazi.github.io/posts/article2/</guid>
-      <description>Article 2 </description>
+      <description>Article 2 Leetcode 75 in 75 days </description>
     </item>
     <item>
       <title>Article 1</title>
       <link>https://tahmid-kazi.github.io/posts/article1/</link>
       <pubDate>Sun, 25 Feb 2024 11:57:25 -0500</pubDate>
       <guid>https://tahmid-kazi.github.io/posts/article1/</guid>
-      <description>Article 1 </description>
+      <description>Article 1: How to deploy your Hugo blog to GitHub Pages </description>
     </item>
   </channel>
 </rss>
