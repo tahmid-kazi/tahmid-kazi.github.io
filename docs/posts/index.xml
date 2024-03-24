@@ -6,21 +6,15 @@
     <description>Recent content in Posts on Tahmid Kazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 29 Feb 2024 10:27:42 -0500</lastBuildDate>
+    <lastBuildDate>Sun, 24 Mar 2024 12:26:14 -0400</lastBuildDate>
     <atom:link href="https://tahmid-kazi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Article 2</title>
-      <link>https://tahmid-kazi.github.io/posts/article2/</link>
-      <pubDate>Thu, 29 Feb 2024 10:27:42 -0500</pubDate>
-      <guid>https://tahmid-kazi.github.io/posts/article2/</guid>
-      <description>Article 2 Leetcode 75 in 75 days </description>
-    </item>
-    <item>
-      <title>Article 1</title>
+      <title>8-bit Binary to Integer Calculator in C&#43;&#43;</title>
       <link>https://tahmid-kazi.github.io/posts/article1/</link>
-      <pubDate>Sun, 25 Feb 2024 11:57:25 -0500</pubDate>
+      <pubDate>Sun, 24 Mar 2024 12:26:14 -0400</pubDate>
       <guid>https://tahmid-kazi.github.io/posts/article1/</guid>
-      <description>Article 1: How to deploy your Hugo blog to GitHub Pages </description>
+      <description>How to Convert an 8Bit Binary Number into an Integer This is a rather simple task to accomplish if you know some basic C++. Firstly, create a file called main.cpp. Then use the code shown below:
+#include &amp;lt;cstdio&amp;gt; int main(){ //a short is 8 bits, use 0b prefix notation for binary unsigned short a = 0b00001011; printf(&amp;#34;%hu\n&amp;#34;, a); return 0; } To compile and run this on Linux, do this:</description>
     </item>
   </channel>
 </rss>
