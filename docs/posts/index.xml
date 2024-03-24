@@ -6,8 +6,16 @@
     <description>Recent content in Posts on Tahmid Kazi</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 24 Mar 2024 12:26:14 -0400</lastBuildDate>
+    <lastBuildDate>Sun, 24 Mar 2024 14:27:58 -0400</lastBuildDate>
     <atom:link href="https://tahmid-kazi.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Simple HTTP Client - Server for ASCII Data</title>
+      <link>https://tahmid-kazi.github.io/posts/article2/</link>
+      <pubDate>Sun, 24 Mar 2024 14:27:58 -0400</pubDate>
+      <guid>https://tahmid-kazi.github.io/posts/article2/</guid>
+      <description>I wrote this back on January 21st 2024 for a coding assessment that I got. The code for the HTTP Client is shown below:
+import socket # Set the server IP address and port server_ip = &amp;#39;ip_addr&amp;#39; server_port = 8080 # Set the path to the text file file_path = &amp;#39;proprietary_data.txt&amp;#39; # Read ASCII data from the text file with open(file_path, &amp;#39;r&amp;#39;) as file: ascii_data = file.read() # Create a socket object client_socket = socket.</description>
+    </item>
     <item>
       <title>8-bit Binary to Integer Calculator in C&#43;&#43;</title>
       <link>https://tahmid-kazi.github.io/posts/article1/</link>

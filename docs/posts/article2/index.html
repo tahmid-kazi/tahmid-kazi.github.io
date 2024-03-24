@@ -5,9 +5,10 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Article 2 | Tahmid Kazi</title>
+<title>Simple HTTP Client - Server for ASCII Data | Tahmid Kazi</title>
 <meta name="keywords" content="">
-<meta name="description" content="Article 2 Leetcode 75 in 75 days ">
+<meta name="description" content="I wrote this back on January 21st 2024 for a coding assessment that I got. The code for the HTTP Client is shown below:
+import socket # Set the server IP address and port server_ip = &#39;ip_addr&#39; server_port = 8080 # Set the path to the text file file_path = &#39;proprietary_data.txt&#39; # Read ASCII data from the text file with open(file_path, &#39;r&#39;) as file: ascii_data = file.read() # Create a socket object client_socket = socket.">
 <meta name="author" content="">
 <link rel="canonical" href="https://tahmid-kazi.github.io/posts/article2/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
@@ -55,16 +56,18 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="Article 2" />
-<meta property="og:description" content="Article 2 Leetcode 75 in 75 days " />
+</noscript><meta property="og:title" content="Simple HTTP Client - Server for ASCII Data" />
+<meta property="og:description" content="I wrote this back on January 21st 2024 for a coding assessment that I got. The code for the HTTP Client is shown below:
+import socket # Set the server IP address and port server_ip = &#39;ip_addr&#39; server_port = 8080 # Set the path to the text file file_path = &#39;proprietary_data.txt&#39; # Read ASCII data from the text file with open(file_path, &#39;r&#39;) as file: ascii_data = file.read() # Create a socket object client_socket = socket." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://tahmid-kazi.github.io/posts/article2/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-02-29T10:27:42-05:00" />
-<meta property="article:modified_time" content="2024-02-29T10:27:42-05:00" />
+<meta property="article:published_time" content="2024-03-24T14:27:58-04:00" />
+<meta property="article:modified_time" content="2024-03-24T14:27:58-04:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Article 2"/>
-<meta name="twitter:description" content="Article 2 Leetcode 75 in 75 days "/>
+<meta name="twitter:title" content="Simple HTTP Client - Server for ASCII Data"/>
+<meta name="twitter:description" content="I wrote this back on January 21st 2024 for a coding assessment that I got. The code for the HTTP Client is shown below:
+import socket # Set the server IP address and port server_ip = &#39;ip_addr&#39; server_port = 8080 # Set the path to the text file file_path = &#39;proprietary_data.txt&#39; # Read ASCII data from the text file with open(file_path, &#39;r&#39;) as file: ascii_data = file.read() # Create a socket object client_socket = socket."/>
 
 
 <script type="application/ld+json">
@@ -81,7 +84,7 @@
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Article 2",
+      "name": "Simple HTTP Client - Server for ASCII Data",
       "item": "https://tahmid-kazi.github.io/posts/article2/"
     }
   ]
@@ -91,17 +94,17 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Article 2",
-  "name": "Article 2",
-  "description": "Article 2 Leetcode 75 in 75 days ",
+  "headline": "Simple HTTP Client - Server for ASCII Data",
+  "name": "Simple HTTP Client - Server for ASCII Data",
+  "description": "I wrote this back on January 21st 2024 for a coding assessment that I got. The code for the HTTP Client is shown below:\nimport socket # Set the server IP address and port server_ip = \u0026#39;ip_addr\u0026#39; server_port = 8080 # Set the path to the text file file_path = \u0026#39;proprietary_data.txt\u0026#39; # Read ASCII data from the text file with open(file_path, \u0026#39;r\u0026#39;) as file: ascii_data = file.read() # Create a socket object client_socket = socket.",
   "keywords": [
     
   ],
-  "articleBody": "Article 2 Leetcode 75 in 75 days ",
-  "wordCount" : "7",
+  "articleBody": "I wrote this back on January 21st 2024 for a coding assessment that I got. The code for the HTTP Client is shown below:\nimport socket # Set the server IP address and port server_ip = 'ip_addr' server_port = 8080 # Set the path to the text file file_path = 'proprietary_data.txt' # Read ASCII data from the text file with open(file_path, 'r') as file: ascii_data = file.read() # Create a socket object client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # Connect to the server client_socket.connect((server_ip, server_port)) # Send the ASCII data to the server client_socket.send(ascii_data.encode('utf-8')) # Close the socket client_socket.close() The code for the HTTP Server is shown below:\nimport socket # Set the server IP address and port server_ip = 'your_server_ip' server_port = 12345 # Create a socket object server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM) # Bind the socket to a specific address and port server_socket.bind((server_ip, server_port)) # Listen for incoming connections (1 connection at a time) server_socket.listen(1) print(f\"Server listening on {server_ip}:{server_port}\") # Accept a connection from a client client_socket, client_address = server_socket.accept() print(f\"Connection from {client_address}\") # Receive data from the client received_data = client_socket.recv(1024).decode('utf-8') # Save the received data to a file (e.g., received_data.txt) with open('received_data.txt', 'w') as file: file.write(received_data) # Close the sockets client_socket.close() server_socket.close() In order to use this code, you’ll need to set the IP Address and Port number in both the Client and Server code. Ideally run this on two different machines with a static IP Address to get the best results.\n",
+  "wordCount" : "243",
   "inLanguage": "en",
-  "datePublished": "2024-02-29T10:27:42-05:00",
-  "dateModified": "2024-02-29T10:27:42-05:00",
+  "datePublished": "2024-03-24T14:27:58-04:00",
+  "dateModified": "2024-03-24T14:27:58-04:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
     "@id": "https://tahmid-kazi.github.io/posts/article2/"
@@ -169,14 +172,70 @@
   <header class="post-header">
     
     <h1 class="post-title entry-hint-parent">
-      Article 2
+      Simple HTTP Client - Server for ASCII Data
     </h1>
-    <div class="post-meta"><span title='2024-02-29 10:27:42 -0500 EST'>February 29, 2024</span>
+    <div class="post-meta"><span title='2024-03-24 14:27:58 -0400 EDT'>March 24, 2024</span>
 
 </div>
   </header> 
-  <div class="post-content"><h2 id="article-2">Article 2<a hidden class="anchor" aria-hidden="true" href="#article-2">#</a></h2>
-<h3 id="leetcode-75-in-75-days">Leetcode 75 in 75 days<a hidden class="anchor" aria-hidden="true" href="#leetcode-75-in-75-days">#</a></h3>
+  <div class="post-content"><p>I wrote this back on January 21st 2024 for a coding assessment that I got. The code for the HTTP Client is shown below:</p>
+<pre tabindex="0"><code>import socket
+
+# Set the server IP address and port
+server_ip = &#39;ip_addr&#39;
+server_port = 8080
+
+# Set the path to the text file
+file_path = &#39;proprietary_data.txt&#39;
+
+# Read ASCII data from the text file
+with open(file_path, &#39;r&#39;) as file:
+    ascii_data = file.read()
+
+# Create a socket object
+client_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+# Connect to the server
+client_socket.connect((server_ip, server_port))
+
+# Send the ASCII data to the server
+client_socket.send(ascii_data.encode(&#39;utf-8&#39;))
+
+# Close the socket
+client_socket.close()
+</code></pre><p>The code for the HTTP Server is shown below:</p>
+<pre tabindex="0"><code>import socket
+
+# Set the server IP address and port
+server_ip = &#39;your_server_ip&#39;
+server_port = 12345
+
+# Create a socket object
+server_socket = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+
+# Bind the socket to a specific address and port
+server_socket.bind((server_ip, server_port))
+
+# Listen for incoming connections (1 connection at a time)
+server_socket.listen(1)
+
+print(f&#34;Server listening on {server_ip}:{server_port}&#34;)
+
+# Accept a connection from a client
+client_socket, client_address = server_socket.accept()
+print(f&#34;Connection from {client_address}&#34;)
+
+# Receive data from the client
+received_data = client_socket.recv(1024).decode(&#39;utf-8&#39;)
+
+# Save the received data to a file (e.g., received_data.txt)
+with open(&#39;received_data.txt&#39;, &#39;w&#39;) as file:
+    file.write(received_data)
+
+# Close the sockets
+client_socket.close()
+server_socket.close()
+</code></pre><p>In order to use this code, you&rsquo;ll need to set the IP Address and Port number in both the Client and Server code. Ideally run this on two different machines with a static IP Address to get the best results.</p>
 
 
   </div>
